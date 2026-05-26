@@ -59,7 +59,7 @@ class Dormitory_pdf extends CI_Controller
             );
             $row++;
         }
-dfdfdf
+
         $sheet->getColumnDimension('A')->setWidth(12);
         $sheet->getColumnDimension('B')->setWidth(18);
 
