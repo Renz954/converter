@@ -102,7 +102,7 @@ class Dormitory_pdf extends CI_Controller
             /*
              * OCR the cropped SAN column.
              */
-            $ocr_text = $this->ocr_numbers_only($san_image);
+            $ocr_text = $this->ocr_numbers_only($san_image);;
 
             /*
              * Extract 4-digit SAN numbers.
