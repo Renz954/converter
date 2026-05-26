@@ -92,7 +92,7 @@ class Dormitory_pdf extends CI_Controller
             $page = $page->mergeImageLayers(Imagick::LAYERMETHOD_FLATTEN);
 
             $page_image = $tmp_dir . 'page_' . $page_number . '.png';
-            $page->writeImage($page_image);
+            $page->writeImage($page_image);fgfgfgfg
 
             /*
              * Crop only the first SAN column.
