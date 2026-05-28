@@ -7,11 +7,11 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use thiagoalessio\TesseractOCR\TesseractOCR;
 
-class Dormitory_pdf extends CI_Controller
+class Pdf_converter extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('dormitory/pdf_san_view');
+        $this->load->view('converter_view');
     }
 
     public function convert_to_excel()
