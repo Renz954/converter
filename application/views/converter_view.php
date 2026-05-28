@@ -13,7 +13,7 @@
 
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h4 class="panel-title">Dormitory Module - PDF SAN Extractorsssss</h4>
+            <h4 class="panel-title">Dormitory Module - PDF SAN Extractors</h4>
         </div>
 
         <div class="panel-body">
