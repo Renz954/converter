@@ -17,8 +17,8 @@ jobs:
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        server: ftpupload.net
+        username: renzmar
+        password: renzmar123
         local-dir: ./
         server-dir: /htdocs/
