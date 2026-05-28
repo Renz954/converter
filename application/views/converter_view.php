@@ -19,7 +19,7 @@
         <div class="panel-body">
 
             <p>
-                Click the button below to scan the uploaded PDF and extract all number
+                Click the button below to scan the uploaded PDF and extract all numberfffffff
                 under the first <strong>SAN</strong> column into an Excel file.
             </p>
 
