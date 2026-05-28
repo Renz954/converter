@@ -32,5 +32,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /tests/results/
  .git
 node_modules
-vendor
 .env 
