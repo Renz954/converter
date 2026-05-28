@@ -18,7 +18,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftpupload.net
-        username: renzmar
-        password: renzmar123
+        username: if0_42012874
+        password: RenZ1234
         local-dir: ./
         server-dir: /htdocs/
