@@ -1,4 +1,4 @@
- name: Deploy to InfinityFree
+name: Deploy to InfinityFree
 
 on:
   push:
@@ -6,11 +6,11 @@ on:
       - main
 
 jobs:
-  deploy:
+  web-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout
       uses: actions/checkout@v4
 
     - name: FTP Deploy
@@ -19,4 +19,6 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: ${{ secrets.FTP_SERVER_DIR }} 
+        server-dir: ${{ secrets.FTP_SERVER_DIR }}
+        protocol: ftp
+        port: 21
