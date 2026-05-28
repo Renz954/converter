@@ -92,7 +92,7 @@ class Dormitory_pdf extends CI_Controller
             $page = $page->mergeImageLayers(Imagick::LAYERMETHOD_FLATTEN);
 
             $page_image = $tmp_dir . 'page_' . $page_number . '.png';
-            $page->writeImage($page_image);fgfgfgfg
+            $page->writeImage($page_image);
 
             /*
              * Crop only the first SAN column.
@@ -102,7 +102,7 @@ class Dormitory_pdf extends CI_Controller
             /*
              * OCR the cropped SAN column.
              */
-            $ocr_text = $this->ocr_numbers_only($san_image);;
+            $ocr_text = $this->ocr_numbers_only($san_image);
 
             /*
              * Extract 4-digit SAN numbers.

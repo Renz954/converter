@@ -20,7 +20,7 @@
 
             <p>
                 Click the button below to scan the uploaded PDF and extract all numbers
-                under the first <strong>SAN</strong> column into an Excel file.
+                under the first <strong>SAN</strong> column into an Excel file.ssssssssssssssssssssssssssss
             </p>
 
             <form method="post" action="<?php echo base_url('index.php/pdf_converter/convert_to_excel'); ?>">
